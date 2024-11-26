@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 23:15:46 +0100
+Source: linux-upstream
+Binary: linux-headers-6.12.0 linux-image-6.12.0 linux-image-6.12.0-dbg linux-libc-dev
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.12.0-4
+Distribution: noble
+Urgency: low
+Maintainer: root <root@skv-i9-ubuntustudio>
+Changed-By: root <root@skv-i9-ubuntustudio>
+Description:
+ linux-headers-6.12.0 - Linux kernel headers for 6.12.0 on amd64
+ linux-image-6.12.0 - Linux kernel, version 6.12.0
+ linux-image-6.12.0-dbg - Linux kernel debugging symbols for 6.12.0
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (6.12.0-4) noble; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 2967510c4d18e3d75f45731055ec234a0f5de33c 9531880 linux-headers-6.12.0_6.12.0-4_amd64.deb
+ 083675a26b44f05194d6363997a3a4046f9f3750 1395152092 linux-image-6.12.0-dbg_6.12.0-4_amd64.deb
+ 3f8f8f2db98bcbd9fd99dfabc31e3c01f88d005b 101513976 linux-image-6.12.0_6.12.0-4_amd64.deb
+ 3caeb6eb35447a96806b35bc169626e3552e098b 1439746 linux-libc-dev_6.12.0-4_amd64.deb
+ 4b0586bca3fa493b736a12f923a6ebd1884b57b8 7461 linux-upstream_6.12.0-4_amd64.buildinfo
+Checksums-Sha256:
+ b5cc954b7f2836383aac381e4f943e302949e0eb5d41eca4ab2e7b4b8552a651 9531880 linux-headers-6.12.0_6.12.0-4_amd64.deb
+ e1016d9c3e27a7a67b3e5628bef0fc4b53d65a5fd015e61ca47e7bc516e0c448 1395152092 linux-image-6.12.0-dbg_6.12.0-4_amd64.deb
+ cf4a010b8cd4093cc0886c52f55741779afbc4e0c441f6198c20bc2d165f1ffa 101513976 linux-image-6.12.0_6.12.0-4_amd64.deb
+ a7892f19d974babf08ee0f5e68bde98dfdbeac5096060d6d532ef94755e4d716 1439746 linux-libc-dev_6.12.0-4_amd64.deb
+ 753d00a32c65ae17dea30532ee41e946900931d4451a2b72b180122f32f6e1fa 7461 linux-upstream_6.12.0-4_amd64.buildinfo
+Files:
+ 5f37599744411c8e0a4142d5e0c86593 9531880 kernel optional linux-headers-6.12.0_6.12.0-4_amd64.deb
+ c2037cedb1ba5e3e3d4b61570a8e70b2 1395152092 debug optional linux-image-6.12.0-dbg_6.12.0-4_amd64.deb
+ 61ff426227508cab76578988c88defd0 101513976 kernel optional linux-image-6.12.0_6.12.0-4_amd64.deb
+ cc09264776c8ada4d5c95d9644bbb7bf 1439746 devel optional linux-libc-dev_6.12.0-4_amd64.deb
+ d9c6cdf581513d07593f67da178a870d 7461 kernel optional linux-upstream_6.12.0-4_amd64.buildinfo
